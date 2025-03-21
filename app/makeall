@@ -19,6 +19,10 @@ cd template
 $make $1 $2 || exit
 cd ..
 
+cd myleddemo
+$make $1 $2 || exit
+cd ..
+
 # TODO: Add new apps here
 #cd subdir
 #$make $1 $2 || exit
